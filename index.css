@@ -2,10 +2,6 @@ html,
 body {
   height: 100%;
   background-color: rgb(228, 228, 228);
-  background-image: url(https://images.thoughtbot.com/blog+animations/animation-direction.gif);
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
 }
 
 #container {
@@ -13,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 2em;
 }
 
 #data{
@@ -20,8 +17,9 @@ body {
 }
 
 #takeMeToNeverland{
-  height:  3em;
+  height:  4em;
   padding: 1em;
+  width: 15em;
   background-color: teal;
   border: none;
 }
